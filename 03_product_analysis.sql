@@ -1,5 +1,5 @@
 USE [pharma-analysis]
-
+	
 --Q1: Which product classes drive the most revenue vs volumne
 SELECT product_class, 
 	SUM(CAST(p.sales AS BIGINT)) AS TotalSales,
