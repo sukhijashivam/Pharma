@@ -5,7 +5,7 @@ SELECT top 20  *
 FROM [pharma-data]
 
 
-
+  
 -- REMOVING FLOATING ERRORS FROM QUANTITIES
 
 -- some of the quantities had non integer values(except the ones with values in quarters(0.25,0.5,0.75) which are valid), We observe them first
